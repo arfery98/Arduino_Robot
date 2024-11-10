@@ -1,0 +1,66 @@
+void RoadRight1() //แถว 1 ขวา
+{
+  TracJC();
+  MotorStop();
+  ServoUp();
+  //think
+  TracJCSpeed();
+  TracJCSpeed();
+  TracJC();
+  TurnRight();
+  TracJC();
+  TurnLeft3();
+  MotorStop();
+  ServoDown();
+  GripBoxX();
+  MotorStop();
+  ServoUp();
+  TurnLeft3();
+  TracJC();
+  TurnLeft3();
+  TracJCSpeed();
+  TracJCSpeed();
+  TracJC();
+  TurnLeft2();
+  Put1();
+  TurnLeft3();
+}
+void RoadRight2() //แถว 2 ขวา
+{
+  //TracJC();
+  MotorStop();
+  ServoUp();
+  //think
+  TracJCSpeed();
+  TracJCSpeed();
+  TracJC();
+  TurnRight();
+  TracJCSpeed();
+  TracJC();
+  TurnLeft3();
+  TracJCStopLorR();
+  TurnLeft3();
+  TracJC();
+  TurnRight();
+  MotorStop();
+  ServoDown();
+  GripBoxX();
+  MotorStop();
+  ServoUp();
+  TurnRight();
+  TracJCStopLorR();
+  TurnRight();
+  TracJCStopLorR();
+  TurnRight();
+  TracJCSpeed();
+  TracJC();
+  TurnLeft();
+  TracJCSpeed();
+  TracJCSpeed();
+  TracJC();
+  TurnRight1();
+  Put1();
+  TurnLeft3();
+
+
+}
